@@ -1,0 +1,6 @@
+{
+  "name": "Bilaad Roadside & Locksmith",
+  "description": "Premium 24/7 towing, emergency lockouts, car key programming, and instant roadside rescue dispatched directly to your location.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
