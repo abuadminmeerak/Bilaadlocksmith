@@ -99,7 +99,7 @@ export default function DashboardScreen({
         >
           {/* Beautiful real locksmith van image we generated */}
           <img 
-            src="/assets/locksmith_hero_1781651378248.jpg" 
+            src="/src/assets/images/locksmith_hero_1781651378248.jpg" 
             alt="BILAAD 24/7 Mobile Locksmith Rescue"
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             referrerPolicy="no-referrer"
@@ -199,9 +199,9 @@ export default function DashboardScreen({
             {horizontalServices.map((service, idx) => {
               // Exact corresponding images
               const servicePics = [
-                "/assets/auto_lockout_1781651390973.jpg",
-                "/assets/key_programming_1781651402199.jpg",
-                "/assets/residential_entry_1781651410988.jpg",
+                "/src/assets/images/auto_lockout_1781651390973.jpg",
+                "/src/assets/images/key_programming_1781651402199.jpg",
+                "/src/assets/images/residential_entry_1781651410988.jpg",
                 "https://images.unsplash.com/photo-1542282088-fe8426682b8f?auto=format&fit=crop&q=80&w=350" // Truck/Pickup lockout generic
               ];
               const displayImg = service.imageUrl || servicePics[idx] || servicePics[0];
