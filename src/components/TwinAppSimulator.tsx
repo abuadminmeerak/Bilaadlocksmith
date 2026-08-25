@@ -21,10 +21,10 @@ export default function TwinAppSimulator() {
   const [dropAddress, setDropAddress] = useState('On-site service location');
 
   const services: Service[] = [
-    { id:'auto-lockout', title:'Auto Lockout', desc:'Fast, damage-conscious vehicle entry when keys are locked inside.', iconName:'Car', bg:'', estFee:'$45', category:'locksmith', imageUrl:'/src/assets/images/auto_lockout_1781651390973.jpg' },
-    { id:'suv-key-fob', title:'Car Key / Fob', desc:'Replacement, programming and smart-key help for cars and SUVs.', iconName:'Key', bg:'', estFee:'$65', category:'locksmith', imageUrl:'/src/assets/images/key_programming_1781651402199.jpg' },
-    { id:'residential-entry', title:'Home Lockout', desc:'Residential entry assistance for doors, deadbolts and common locks.', iconName:'Home', bg:'', estFee:'$40', category:'locksmith', imageUrl:'/src/assets/images/residential_entry_1781651410988.jpg' },
-    { id:'key-duplicate', title:'Key Cutting', desc:'On-site key duplication and replacement.', iconName:'Wrench', bg:'', estFee:'$25', category:'locksmith', imageUrl:'/src/assets/images/key_cutting_1781651423076.jpg' },
+    { id:'auto-lockout', title:'Auto Lockout', desc:'Fast, damage-conscious vehicle entry when keys are locked inside.', iconName:'Car', bg:'', estFee:'$45', category:'locksmith', imageUrl:'/assets/auto_lockout_1781651390973.jpg' },
+    { id:'suv-key-fob', title:'Car Key / Fob', desc:'Replacement, programming and smart-key help for cars and SUVs.', iconName:'Key', bg:'', estFee:'$65', category:'locksmith', imageUrl:'/assets/key_programming_1781651402199.jpg' },
+    { id:'residential-entry', title:'Home Lockout', desc:'Residential entry assistance for doors, deadbolts and common locks.', iconName:'Home', bg:'', estFee:'$40', category:'locksmith', imageUrl:'/assets/residential_entry_1781651410988.jpg' },
+    { id:'key-duplicate', title:'Key Cutting', desc:'On-site key duplication and replacement.', iconName:'Wrench', bg:'', estFee:'$25', category:'locksmith', imageUrl:'/assets/key_cutting_1781651423076.jpg' },
     { id:'fleet-locksmith', title:'Fleet Locksmith', desc:'Lock and key support for commercial vehicle fleets.', iconName:'Building', bg:'', estFee:'$120', category:'locksmith', imageUrl:'https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&q=80&w=350' },
     { id:'smart-key-coding', title:'Smart Locks', desc:'Smart-lock setup, repair and access support.', iconName:'Key', bg:'', estFee:'$75', category:'locksmith', imageUrl:'https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=350' },
     { id:'mailbox-locks', title:'Mailbox Locks', desc:'Mailbox, cabinet and small-lock replacement or entry.', iconName:'Wrench', bg:'', estFee:'$35', category:'locksmith', imageUrl:'https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&q=80&w=350' }

@@ -19,7 +19,7 @@ export default function WelcomeScreen({ onStart }: WelcomeScreenProps) {
       {/* 1. Top Graphic Area: Locksmith Van */}
       <div className="relative h-[40%] min-h-[220px] w-full shrink-0 overflow-hidden border-b border-zinc-800">
         <img
-          src="/src/assets/images/locksmith_hero_1781651378248.jpg"
+          src="/assets/locksmith_hero_1781651378248.jpg"
           alt="Bilaad Mobile Locksmith Unit"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -33,7 +33,7 @@ export default function WelcomeScreen({ onStart }: WelcomeScreenProps) {
         {/* Underlay background: Lishi bypass locksmith hands */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/auto_lockout_1781651390973.jpg"
+            src="/assets/auto_lockout_1781651390973.jpg"
             alt="Locksmith Bypass Close Up"
             className="w-full h-full object-cover opacity-60"
             referrerPolicy="no-referrer"
