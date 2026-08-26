@@ -1,13 +1,54 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Tony's mobile mechanic service. Brakes, tune-ups, oil changes, suspension, A/C and radiator service. Call (662) 338-6067." />
+  <meta name="theme-color" content="#03182d" />
+  <title>Tony's Mobile Mechanic | We Come To You</title>
+  <style>
+    html,body{margin:0;background:#020b14;color:#fff;font-family:Arial,sans-serif}
+    *{box-sizing:border-box}
+    .page{position:relative;width:100%;max-width:1536px;margin:0 auto;background:#03182d;line-height:0}
+    .page img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none}
+    .hotspot{position:absolute;display:block;z-index:10;border-radius:10px;outline-offset:3px}
+    .hotspot:focus-visible{outline:3px solid #ffbf35;background:rgba(255,191,53,.14)}
+    /* Coordinates are percentages of the locked 1024x1536 final design. */
+    .home{left:38.0%;top:1.4%;width:7.6%;height:3.3%}
+    .services-nav{left:45.6%;top:1.4%;width:9.0%;height:3.3%}
+    .areas-nav{left:55.3%;top:1.4%;width:12.0%;height:3.3%}
+    .about-nav{left:68.0%;top:1.4%;width:8.0%;height:3.3%}
+    .contact-nav{left:77.6%;top:1.4%;width:8.0%;height:3.3%}
+    .header-call{left:85.4%;top:1.3%;width:12.7%;height:3.3%}
+    .hero-call{left:4.0%;top:24.0%;width:14.8%;height:3.2%}
+    .hero-services{left:20.0%;top:24.0%;width:14.7%;height:3.2%}
+    .contact-us{left:72.0%;top:84.0%;width:16.0%;height:3.0%}
+    .phone{left:28.0%;top:89.5%;width:43.0%;height:4.8%}
+    .services-anchor,.about-anchor,.area-anchor,.contact-anchor{position:absolute;left:0;width:1px;height:1px}
+    .services-anchor{top:35%}.about-anchor{top:51%}.area-anchor{top:80%}.contact-anchor{top:88%}
+    body{padding-bottom:max(12px,env(safe-area-inset-bottom))}
+    @media (max-width:640px){.page{max-width:none};body{padding-bottom:max(8px,env(safe-area-inset-bottom))}}
+  </style>
+</head>
+<body>
+  <main class="page" id="top" aria-label="Tony's Mobile Mechanic">
+    <img src="assets/final-design.png" alt="Tony's Mobile Mechanic website showing mobile auto repair services, service truck, brakes, tune-up, oil change, suspension, A/C, radiator, and phone number (662) 338-6067." />
 
+    <a class="hotspot home" href="#top" aria-label="Home"></a>
+    <a class="hotspot services-nav" href="#services" aria-label="Services"></a>
+    <a class="hotspot areas-nav" href="#area" aria-label="Areas we serve"></a>
+    <a class="hotspot about-nav" href="#about" aria-label="About"></a>
+    <a class="hotspot contact-nav" href="#contact" aria-label="Contact"></a>
+    <a class="hotspot header-call" href="tel:+16623386067" aria-label="Call Tony at 662 338 6067"></a>
+    <a class="hotspot hero-call" href="tel:+16623386067" aria-label="Call Tony at 662 338 6067"></a>
+    <a class="hotspot hero-services" href="#services" aria-label="View services"></a>
+    <a class="hotspot contact-us" href="tel:+16623386067" aria-label="Contact Tony"></a>
+    <a class="hotspot phone" href="tel:+16623386067" aria-label="Call 662 338 6067"></a>
+
+    <span class="services-anchor" id="services" aria-hidden="true"></span>
+    <span class="about-anchor" id="about" aria-hidden="true"></span>
+    <span class="area-anchor" id="area" aria-hidden="true"></span>
+    <span class="contact-anchor" id="contact" aria-hidden="true"></span>
+  </main>
+</body>
+</html>

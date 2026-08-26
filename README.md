@@ -1,20 +1,11 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Tony Mobile Mechanic — Final Pixel-Match Demo
 
-# Run and deploy your AI Studio app
+This outreach/demo version intentionally uses the locked final approved design as the visual layer so the browser output matches the agreed mockup exactly instead of reinterpreting it with CSS.
 
-This contains everything you need to run your app locally.
+## Deploy to GitHub Pages
+1. Upload `index.html` and the `assets` folder to the repository root.
+2. In GitHub: Settings → Pages → Deploy from branch → `main` / root.
+3. The main Call Tony buttons and phone number are clickable and dial `(662) 338-6067` on supported devices.
 
-View your app in AI Studio: https://ai.studio/apps/e3ac1676-0eaf-4f1d-b17a-8e9b7d36a9a5
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Production note
+For a purchased production site, rebuild the visual as semantic HTML/CSS while preserving this approved design, then add structured data/AEO/local SEO and performance optimization.
